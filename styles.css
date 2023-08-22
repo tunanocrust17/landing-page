@@ -11,6 +11,11 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .header {
     background-color: #1F2937;
     margin: 0;
@@ -25,3 +30,13 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.right-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
