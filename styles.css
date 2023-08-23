@@ -59,7 +59,7 @@ p {
 .title {
     display: flex;
     padding-top: 50px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
     gap: 75px;
     justify-content: space-between;
 }
@@ -98,30 +98,24 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: fit-content;
 }
 
 .container{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    gap: 10px;
 }
 
 .motorcycle-info {
-    /* max-width: 500px; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+ padding: 16px;
+ /* margin: 16px; */
+ width: 200px;
 }
 
 .motorcycle-thumbnails {
     border-radius: 5%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 
