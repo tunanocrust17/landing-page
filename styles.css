@@ -124,8 +124,9 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-color: #E5E7EB;
+    padding: 30px 350px;
 }
 
 .quote-text, .quote-author {
@@ -136,5 +137,3 @@ p {
     font-size: 36px;
     font-style: italic;
 }
-
-
