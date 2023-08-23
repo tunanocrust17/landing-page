@@ -90,4 +90,37 @@ p {
     padding: 10px;
 }
 
+.random-info {
+    padding: 30px 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.motorcycle-info {
+    /* max-width: 500px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.motorcycle-thumbnails {
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+}
+
 
