@@ -114,8 +114,27 @@ p {
 
 .motorcycle-thumbnails {
     border-radius: 5%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ******** quote section styling ******** */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text, .quote-author {
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
 }
 
 
