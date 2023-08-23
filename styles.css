@@ -16,9 +16,20 @@ a {
     color: #E5E7EB;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header, .title {
     background-color: #1F2937;
-    padding: 30px 125px;
+    padding: 30px 150px;
     margin: 0;
     color: #F9FAF8;
 }
@@ -44,4 +55,44 @@ a {
     font-size: 18px;
     text-decoration: none;
 }
+
+.title {
+    display: flex;
+    padding-top: 50px;
+    gap: 75px;
+    justify-content: space-between;
+}
+
+.left-title {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 30%; */
+    /* flex: 1 1 auto; */
+    width: 500px;
+    flex: 1 1 auto;
+}
+
+.right-title {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    width: 500px;
+}
+
+.motorcycle-img {
+    flex-shrink: 5;
+    width: 100%;
+    height: auto;
+}
+
+.sign-up-button {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    border: none;
+    padding: 10px;
+}
+
 
